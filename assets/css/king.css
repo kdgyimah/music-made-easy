@@ -1,1 +1,3 @@
-.welcome-text-container{margin-bottom:2rem}.card{cursor:pointer;min-height:320px !important;-webkit-transition:0.3s ease all;-moz-transition:0.3s ease all;-o-transition:0.3s ease all;transition:0.3s ease all}.card img{height:200px}.card:hover{transform:scale(1.05)}.row.overview{margin-bottom:4rem}
+.about-text-container{margin-top:2rem}.row.instructors img{height:100%}
+
+.welcome-text-container{margin-bottom:2rem}.card{min-height:320px !important;-webkit-transition:0.3s ease all;-moz-transition:0.3s ease all;-o-transition:0.3s ease all;transition:0.3s ease all}.card:not(.about){cursor:pointer}.card:not(.about):hover{transform:scale(1.05)}.card img{height:200px}.row.overview{margin-bottom:4rem}
