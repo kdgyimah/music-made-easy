@@ -3,3 +3,32 @@
 .welcome-text-container {
   margin-bottom: 2rem;
 }
+
+// COMPONENT
+
+.card {
+  cursor: pointer;
+  min-height: 320px !important;
+
+  img {
+    height: 200px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  // &:nth-child(odd) {
+  //   margin-right: 2rem;
+  // }
+
+  -webkit-transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -o-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+
+.row.overview {
+  margin-bottom: 4rem;
+}

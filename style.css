@@ -2796,10 +2796,6 @@ select
     {
         padding-left: 64px;
     }
-    footer
-    {
-        padding-left: 250px;
-    }
 }
 
 @media only screen and (max-width: 600px)

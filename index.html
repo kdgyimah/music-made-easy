@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/materialize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/king.css">
     <!-- Favicon -->
     <link rel="icon" href="./assets/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
@@ -20,7 +21,7 @@
     <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
+<body id="home">
     <div id="loader-wrapper">
         <div id="loader"></div>
         <div class="loader-section section-left"></div>
@@ -29,8 +30,7 @@
     <header>
         <nav class="nav-extended nav-fixed purple darken-4 z-depth-2">
             <div class="nav-wrapper">
-                <a class="brand-logo" id="cpa-logo"><i class="material-icons"
-                        id="logo-icon">bubble_chart</i>MUSICMADEEASY</a>
+                <a class="brand-logo" id="cpa-logo"><i class="material-icons" id="logo-icon">bubble_chart</i>MUSICMADEEASY</a>
                 <a href="#" class="sidenav-trigger" data-target="mobile-nav">
                     <i class="material-icons">menu</i>
                 </a>
@@ -52,6 +52,10 @@
 
     <div class="container">
         <div class="row"><br>
+            <div class="welcome-text-container center-align s12 m8">
+                <h1 class="orange-text text-darken-3">Welcome to Music Made Easy</h1>
+                <span class="flow-text">The no #1 site that makes music learning easy and brings music related resources to your doorstep!</span>
+            </div>
             <div class="col s12 l12">
                 <div class="slider">
                     <ul class="slides">
@@ -88,25 +92,70 @@
             </div>
         </div>
 
-        <div class="row"><br>
-            <div class="center-align">
-                <h4 class="orange-text text-darken-3">MUSICMADEEASY</h4>
-            </div>
-            <div class="card col s12 l10 offset-l1 offset-m1 z-depth-2 card-border">
-                <div class="card-content">
-                    <div class="col s6 l5">
-                        <h5 class="indigo-text text-darken-2"><strong>Music is so important as it -</strong></h5>
-                        <ul class="indigo-text text-darken-2">
-                            <li>Moves People</li><br>
-                            <li>Makes Kids Smarter</li><br>
-                            <li>Creates Community</li><br>
-                            <li>Improves Mental Health</li><br>
-                            <li>Is Universal Language</li>
-                        </ul>
+        <div class="row overview">
+            <div class="col">
+                <br>
+                <div class="center-align">
+                    <h4 class="orange-text text-darken-3">OVERVIEW</h4>
+                </div>
+                <div class="card col s12 m5 l3 z-depth-2 card-border">
+                    <div class="card-content">
+                        <div class="col s12">
+                            <img id="musicsvg" width="300" class="responsive-img" src="assets/img/undraw_about_me.svg" />
+                        </div>
+                        <div class="col s12">
+                            <h5 class="indigo-text text-darken-2"><strong>About Us</strong></h5>
+                        </div>
                     </div>
-                    <div class="col s6 l5 right">
-                        <img id="musicsvg" width="300" class="responsive-img"
-                            src="assets/img/undraw_compose_music_ovo2.svg" />
+                </div>
+                <div class="card col s12 m5 l3 offset-m1 offset-l1 z-depth-2 card-border">
+                    <div class="card-content">
+                        <div class="col s12">
+                            <img id="musicsvg" width="300" class="responsive-img" src="assets/img/undraw_youtube_tutorial_re_69qc.svg" />
+                        </div>
+                        <div class="col s12">
+                            <h5 class="indigo-text text-darken-2"><strong>Lessons</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col s12 m5 l3 offset-l1 z-depth-2 card-border">
+                    <div class="card-content">
+                        <div class="col s12">
+                            <img id="musicsvg" width="300" class="responsive-img" src="assets/img/undraw_audio_player_re_cl20.svg" />
+                        </div>
+                        <div class="col s12">
+                            <h5 class="indigo-text text-darken-2"><strong>Audio Library</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col s12 m5 l3 offset-m1 z-depth-2 card-border">
+                    <div class="card-content">
+                        <div class="col s12">
+                            <img id="musicsvg" width="300" class="responsive-img" src="assets/img/undraw_online_learning_re_qw08.svg" />
+                        </div>
+                        <div class="col s12">
+                            <h5 class="indigo-text text-darken-2"><strong>Video Library</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col s12 m5 l3 offset-l1 z-depth-2 card-border">
+                    <div class="card-content">
+                        <div class="col s12">
+                            <img id="musicsvg" width="300" class="responsive-img" src="assets/img/undraw_online_articles_re_yrkj.svg" />
+                        </div>
+                        <div class="col s12">
+                            <h5 class="indigo-text text-darken-2"><strong>Articles</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col s12 m5 l3 offset-m1 offset-l1 z-depth-2 card-border">
+                    <div class="card-content">
+                        <div class="col s12">
+                            <img id="musicsvg" width="300" class="responsive-img" src="assets/img/undraw_contact_us_re_4qqt.svg" />
+                        </div>
+                        <div class="col s12">
+                            <h5 class="indigo-text text-darken-2"><strong>Contact</strong></h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -114,20 +163,19 @@
     </div>
 
 
-    <footer
-        class="page-footer  footer footer-static footer-dark gradient-45deg-indigo-purple gradient-shadow navbar-border navbar-shadow">
+    <footer class="page-footer  footer footer-static footer-dark gradient-45deg-indigo-purple gradient-shadow navbar-border navbar-shadow">
         <div class="footer-copyright">
             <div class="container">
                 <span>© 2022 Copyright</span>
-                <span class="right hide-on-small-only">Powered by <a href="#">MUSICMADEEASY</a></span></div>
+                <span class="right hide-on-small-only">Powered by <a href="#">MUSICMADEEASY</a></span>
+            </div>
         </div>
     </footer>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/js/materialize.js"></script>
     <script src="assets/js/plugin.js"></script>
 </body>
