@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MUSICMADEEASY</title>
+  <link rel="icon" href="assets/img/cadetkid.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/materialize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <header>
+    <nav class="nav-extended nav-fixed purple darken-4 z-depth-2">
+      <div class="nav-wrapper">
+        <a class="brand-logo" id="cpa-logo"><i class="material-icons" id="logo-icon">bubble_chart</i>MUSICMADEEASY</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+          <li><a href="artist.html"><i class="material-icons left">person</i>Artist</a></li>
+          <li><a href="lesson.html"><i class="material-icons left">library_music</i>Lesson</a></li>
+          <li><a href="update_profile.php"><i class="material-icons left"></i>Profile</a></li>
+          <li><a href="login.php"><i class="material-icons left"></i>Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="artist.html">Artist</a></li>
+      <li><a href="lesson.html">Lesson</a></li>
+    </ul>
+  </header>
+
+  <div class="container">
+    <div class="center-align">
+      <h4>Stonebwoy</h4>
+    </div>
+
+    <div class="col s12 l4">
+      <ul class="tabs center">
+        <li class="tab col s3"><a class="active" href="#video">Video</a></li>
+        <li class="tab col s3"><a href="#audio">Audio</a></li>
+      </ul>
+    </div>
+
+    <!--    For videos       -->
+
+    <div id="video" class="col s12">
+      <div class="row">
+        <!-- repeat block from here-->
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="640" height="360" src="src/stone/GIDIGBA.mp4"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container no-controls">
+                <iframe width="560" height="315" src="src/stone/Nyanda.mp4" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="560" height="315" src="src/stone/Therapy.mp4" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container no-controls">
+                <iframe width="560" height="315" src="src/stone/pull_up.mp4" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container no-controls">
+                <iframe width="560" height="315" src="src/stone/take_me_back.mp4" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container no-controls">
+                <iframe width="560" height="315" src="src/stone/Nukedzor.mp4" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- upto this-->
+      </div>
+    </div>
+
+    <!--    For audios       -->
+    <div id="audio">
+      <div class="row">
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="src/stone/MzVee.jpg" alt="image" height="150">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4 center">Gidibga<i
+                  class="material-icons right">more_vert</i></span>
+              <div class="center">
+                <audio controls>
+                  <source src="src/stone//Stonebwoy-Gidibga-Firm-Strong-Oneclickghana.com_.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="src/stone/Therapy.jpg" alt="image" height="150">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4 center">All Fruit Ripe<i
+                  class="material-icons right">more_vert</i></span>
+              <div class="center">
+                <audio controls>
+                  <source src="src/stone/Nyanda-All-Fruits-Ripe-ft-Stonebwoy-Oneclickghana.com_.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="src/stone/Therapy.jpg" alt="image" height="150">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4 center">Therapy<i
+                  class="material-icons right">more_vert</i></span>
+              <div class="center">
+                <audio controls>
+                  <source src="src/stone/Stonebwoy-Therapy-Acoustic-Version-Oneclickghana.com_.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="src/stone/MzVee.jpg" alt="image" height="150">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4 center">Pull Up<i
+                  class="material-icons right">more_vert</i></span>
+              <div class="center">
+                <audio controls>
+                  <source src="src/stone/MzVee-Pull-Up-ft.-Stonebwoy-x-DJ-Henry-X.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="src/stone/Nyanda.jpg" alt="image" height="150">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4 center">Take Me Back<i
+                  class="material-icons right">more_vert</i></span>
+              <div class="center">
+                <audio controls>
+                  <source src="src/stone/Criss-Waddle-Take-Me-Back-Ft-Stonebwoy-Oneclickghana.com_.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="src/stone/Stonebwoy_Nukedzor.jpg" alt="image" height="150">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4 center">Take Me Back<i
+                  class="material-icons right">more_vert</i></span>
+              <div class="center">
+                <audio controls>
+                  <source src="src/stone/Stonebwoy-–-Nukedzor-ft.-Joey-B-Abra-Cadabra-www.oneclickghana.com_.mp3" type="audio/mpeg">
+                </audio>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/plugin.js"></script>
+</body>
+
+</html>
