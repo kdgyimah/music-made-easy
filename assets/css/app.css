@@ -12,3 +12,7 @@
 #musicsvg{
     margin-top: 25px;
 }
+.video-container iframe {
+    background-image: url("./../img/undraw_compose_music_ovo2.svg");
+    background-size: cover;
+}

@@ -2,181 +2,331 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MUSICMADEEASY</title>
-    <link rel="icon" href="assets/img/cadetkid.png">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/materialize.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/app.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MUSICMADEEASY</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/materialize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-    </div>
-    <header>
-        <nav class="nav-extended nav-fixed purple darken-4 z-depth-2">
-            <div class="nav-wrapper">
-                <a class="brand-logo" id="cpa-logo"><i class="material-icons"
-                        id="logo-icon">bubble_chart</i>MUSICMADEEASY</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
-                    <li><a href="artist.html"><i class="material-icons left">person</i>Artist</a></li>
-                    <li><a href="lesson.html"><i class="material-icons left">library_music</i>Lesson</a></li>
-                    <li><a href="update_profile.php"><i class="material-icons left"></i>Profile</a></li>
-                    <li><a href="login.php"><i class="material-icons left"></i>Logout</a></li>
-                </ul>
-            </div>
-        </nav>
-        <ul class="sidenav" id="mobile-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="artist.html">Artist</a></li>
-            <li><a href="lesson.html">Lesson</a></li>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <header>
+    <nav class="nav-extended nav-fixed purple darken-4 z-depth-2">
+      <div class="nav-wrapper">
+        <a class="brand-logo" id="cpa-logo"><i class="material-icons" id="logo-icon">bubble_chart</i>MUSICMADEEASY</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+          <li><a href="artist.html"><i class="material-icons left">person</i>Artist</a></li>
+          <li><a href="lesson.html"><i class="material-icons left">library_music</i>Lessons</a></li>
+          <li><a href="update_profile.php"><i class="material-icons left"></i>Profile</a></li>
+          <li><a href="login.php"><i class="material-icons left"></i>Logout</a></li>
+          
         </ul>
-    </header>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="artist.html">Artist</a></li>
+      <li><a href="lesson.html">lesson</a></li>
+    </ul>
+  </header>
 
-    <div class="container">
-        <div class="row"><br>
-            <h4 class="header center-align"><b>How to become a musician</b></h4>
+  <div class="container">
+    <div class="center-align">
+      <h4>Lessons</h4>
+    </div>
 
-            <h3><b>What is a musician?</b></h3>
+    <div class="col s12 l4">
+      <ul class="tabs center">
+        <li class="tab col s3"><a class="active" href="#piano">Piano</a></li>
+        <li class="tab col s3"><a href="#drums">Drums</a></li>
+        <li class="tab col s3"><a href="#bass">Bass</a></li>
+      </ul>
+    </div>
 
-        <p>A <b>musician</b> is a person who is musically talented in any way. Musicians can be singers, songwriters, instrumentalists, composers or conductors. These professionals may perform as a soloist, or on their own, or they may perform as part of a band or group of other musicians.</p>
+    <!--    For piano      -->
 
-        Musicians may specialize in a particular type of musical style or they can play, sing or compose various styles based on culture and background. Additionally, musicians can work independently or be part of a major record label in which the label would oversee much of the creation process and style of music being produced.
-
-        Most musicians spend a significant amount of time practicing and learning music in order to gain traction in the music industry. They may practice and perform live or record their music in a studio.
-
-        <h2><b>What does a musician do?</b></h2>
-
-        Musicians participate in several different tasks depending on their work environment. The most common duties of a musician include:
-
-    
-            <li>Perform musical sets in front of an audience.</li>
-<br>
-            <li>Record music in a studio to be shared with others.</li>
-<br>
-            <li>Create original music.</li>
-<br>
-            <li>Travel on tour to perform musical sets in various locations.</li>
-<br>
-            <li>Practice using various musical instruments.</li>
-<br>
-            <li>Collaborate with other musicians to compose music.</li>
-<br>
-            <li>Make sample discs of their music to send to studios and labels.</li>
-    
-
-        <h2><b>What does a musician do?</b></h2>
-
-        There are a number of different types of musicians. Knowing these types will help you decide which kind of musician is best suited to your interests and skills. The most common types of musicians include:
-
-        
-            <li><b>Session musician:</b> A session musician is a studio musician who records sessions or live performances in a studio.</li>
-            <br>
-            <li><b>Conductor: </b>This type of musician is one who directs the musical performance of a choir, orchestra or another musical group.</li>
-            <br>
-            <li><b>Music producer:</b> This type of musician operates technology to refine and create music in a studio for production.</li>
-            <br>
-            <li><b>Composer:</b> A composer is a musical professional who creates and composes music.</li>
-            <br>
-            <li><b>Music teacher:</b> A music teacher is a type of musician who teaches the art of music to others in a class setting.</li>
-            <br>
-            <li><b>Orchestrator: </b>An orchestrator is a musical professional responsible for assigning various instruments to a musical ensemble based on musical pieces.</li>
-            <br>
-            <li><b>Arranger: </b>This type of musician is responsible for determining the most appropriate instruments to play based on a particular composition.</li>
-            <br>
-            <li><b>Vocalist: </b>A vocalist is a musician who sings.</li>
-            <br>
-            <li><b>Improviser:</b> An improviser is a musician who performs musical sets using free performance</li>
-            <br>
-            <li><b>Rapper:</b> A rapper is a musical specialist who performs rap music.</li>
-            <br>
-            <li><b>Record producer:</b> This type of musician is the technical and creative leader for various recording projects within a studio.</li>
-        
-            <h2><b>How to become a musician</b></h2>
-            The following are steps you can take to pursue a career as a musician:
-            <br>
-            <li><b>Decide what type of musician you want to be.</b> There are various types of musicians, and each type requires a certain set of skills and experience. Knowing which type of musician you want to be will help you better cater to your career path in terms of gaining experience, knowledge and expertise.</li>
-            <br>
-            <li><b>Pick an instrument.</b> If you want to be the type of musician that plays musical instruments, you'll need to select an instrument to learn and practice. If you're unsure of what instrument you want to play, start with a more basic instrument such as the guitar or piano. Consider the type of music you want to play when choosing an instrument. For example, if you want to play jazz, you should select an instrument that is commonly used in this type of music. If you want to create music, choose an instrument that is easily compatible with a variety of music such as the guitar.</li>
-            <br>
-            <li><b>Take music lessons. </b>A great way to begin a career as a musician is to start taking music lessons. It can be hard to learn a new skill on your own, so a music teacher will be able to guide you as you learn the fundamentals of playing and creating music.
-
-            </li>
-            <br>
-            <li><b>Practice on a regular basis. </b>One of the most important components of a career as a musician is regular practice. Even if you possess a natural talent for music, you should still practice singing or playing instruments regularly. Practice for at least 45 minutes each day and switch up the techniques and type of music you use when practicing.
-
-            </li>
-            <br>
-            <li><b>Join a band. </b>Once you are comfortable with a particular instrument or singing, consider joining a band that's already established. This will provide you with experience and training that will support your career as a musician. Joining a band or another musical group is also a great way to make connections in the music industry.
-
-            </li>
-            <br>
-            <li><b>Record your music.</b> Recording your music is important for several reasons. First, it can help you hear yourself play and allow you to identify any areas of improvement you should work on. Recording music is also necessary if you want to share your music with others, such as with a record label.
-
-            </li>
-            <br>
-            <li><b>Don't give up. </b>A career as a musician is much different from a career in other industries like finance or technology. It can take time to build yourself up as a musician and get noticed by others.
-
-            </li>
-            <!--  album card starts  -->
-            <div class="col s12 m4">
-                <!-- <div id="profile-card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/albumcovershunno.jpeg" height="200" alt="user bg" />
-                    </div>
-                    <div class="card-content">
-                        <h5 class="card-title activator grey-text text-darken-4"><a href="albumsong.html">Roger Waters</a></h5>
-                        <p>
-                            <ul>
-                                <li><strong>Album published: </strong>2017</li>
-                                <li><strong>Total Song: </strong>12</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div> -->
-
-
+    <div id="piano" class="col s12">
+      <div class="row">
+        <!-- repeat block from here-->
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/827jmswqnEA"
+                  allowfullscreen></iframe>
+              </div>
             </div>
-            <!--  album card ends  -->
-
-
-
-            <!-- <div class="col s12 m4">
-                <div id="profile-card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/albumcovershunno.jpeg" height="200" alt="user bg" />
-                    </div>
-                    <div class="card-content">
-                        <h5 class="card-title"><a href="albumsong.html">Roger Waters</a></h5>
-                        <p>
-                            <ul>
-                                <li><strong>Album published:</strong> 2017</li>
-                                <li><strong>Total Song: </strong>12</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div> -->
+          </div>
         </div>
+
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hTmjb9CtsTQ" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PeYSesLA5K4" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZD_sAWAlWq0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/rUqKWy9SvhI" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/F1Y-T_RsRWs" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/4J0X1HRMiCE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zOUpQwGwUlw" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- upto this-->
+      </div>
+    </div>
+
+    
+    <!--    For drums      -->
+
+    <div id="drums" class="col s12">
+      <div class="row">
+        <!-- repeat block from here-->
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/XeVLe4dX9V8"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HdiiXOkomKo" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O9mt60NNbWA" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/sKQvIOr9CYY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ku-rc-MYB1w" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/0hGoR-L70Zw" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/L9czW9C3VEk" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/fLCisajJr0g" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- upto this-->
+      </div>
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="assets/js/materialize.js"></script>
-    <script src="assets/js/plugin.js"></script>
+    
+    <!--    For bass      -->
+
+    <div id="bass" class="col s12">
+      <div class="row">
+        <!-- repeat block from here-->
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/7m9QGj9GjIY"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FVs4kOk994w" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div id="video-two" class="card card card-default">
+            <div class="card-content">
+              <div class="video-container controls">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ly1ckAE2wq0" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 l6">
+            <div id="video-two" class="card card card-default">
+              <div class="card-content">
+                <div class="video-container controls">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FqNurQ5H_N0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- upto this-->
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/plugin.js"></script>
 </body>
 
 </html>
